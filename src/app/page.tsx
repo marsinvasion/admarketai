@@ -1,9 +1,23 @@
+import Image from 'next/image';
+
 export default function HomePage() {
   return (
     <main className="p-8 max-w-7xl mx-auto space-y-16">
       {/* Hero / Mission Section */}
       <section className="text-center space-y-4">
-        <h1 className="text-4xl font-bold text-gray-900">Ad Market AI</h1>
+        <div className="logo-and-text-container">
+        
+          <Image
+            src="/admarketai.png" // Assuming the logo is named logo.png in the public folder
+            alt="Ad Market AI"
+            width={200}
+            height={200}
+          />
+        <h1 className="text-4xl font-bold text-gray-900">
+          Ad Market AI
+          
+        </h1>
+        </div>
         <p className="text-lg text-gray-600 max-w-2xl mx-auto">
           At Ad Market AI, we harness the power of artificial intelligence to help companies execute smarter, more engaging marketing campaigns.
           Our mission is to simplify campaign management, maximize user engagement, and improve ROI through cutting-edge automation and analytics.

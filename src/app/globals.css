@@ -17,13 +17,20 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+background-color: white;
+}
+
+.logo-and-text-container {
+  display: flex; /* Makes the container a flex container */
+  align-items: center; /* Vertically centers the items */
+  display: flex; /* Turn the container into a flex container */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  background: transparent;
+}
+
+.logo-and-text-container img { /* Targeting the image within the container */
+  margin-right: 10px; /* Adjust the value as needed */
 }
 
 @layer utilities {
