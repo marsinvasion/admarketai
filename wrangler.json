@@ -23,6 +23,10 @@
     	{
       		"pattern": "admarketai.com",
       		"custom_domain": true
+    	},
+		{
+      		"pattern": "www.admarketai.com",
+      		"custom_domain": true
     	}
   	]
 	/**
